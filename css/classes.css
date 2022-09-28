@@ -1,0 +1,33 @@
+.main-bg {
+    background-image: url('../images/confetti-doodles.png');
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color);
+}
+
+.white-bg {
+    background: var(--white-color);
+    color: var(--primary-color);
+}
+
+.contact-bg {
+    background-image: url('../images/abstract-timekeeper.svg');
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color);
+}
+
+.main-content {
+    max-width: 120rem;
+    margin:auto;
+    padding: 10rem var(--gap);
+}
+
+.section {
+    min-height: 100vh;
+}
+
+.full-width {
+    width: 100%;
+    flex: 1 1 100%;
+}
