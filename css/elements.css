@@ -60,13 +60,17 @@ p {
     margin-bottom: 3rem;
 }
 
+ul li {
+    margin-left: 19px;
+}
+
 .responsive-table {
     overflow: hidden;
     overflow-x: auto;
 }
 
 table {
-    min-width: 360px;
+    min-width: 580px;
     width: 100%;
     border-collapse: collapse;
 }

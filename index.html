@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Landing Page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -19,7 +19,9 @@
 
 <body>
 
-    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+
+    <!-- MENU -->
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button" aria-pressed="true">
     <label class="close-menu-label" for="close-menu" title="close-menu"></label>
     <aside class="menu white-bg">
         <div class="main-content menu-content">
@@ -27,11 +29,11 @@
             <nav>
                 <ul onclick="getElementById('close-menu').checked = false;">
                     <li><a href="#">intro</a></li>
-                    <li><a href="#top3">top 3</a></li>
-                    <li><a href="#grid-one">grid-one</a></li>
-                    <li><a href="#gallery">gallery</a></li>
-                    <li><a href="#some-other">Some</a></li>
-                    <li><a href="#pricing">pricing</a></li>
+                    <li><a href="#historia">história</a></li>
+                    <li><a href="#datas">datas</a></li>
+                    <li><a href="#galeria">galeria</a></li>
+                    <li><a href="#carreira">carreira</a></li>
+                    <li><a href="#preços">preços</a></li>
                     <li><a href="#contact">contact</a></li>
                 </ul>
             </nav>
@@ -39,14 +41,24 @@
     </aside>
     <div class="menu-spacing"></div>
 
-
+    <!-- INTRO -->
     <section id="intro" class="main-bg section">
         <div class="main-content intro-content">
             <div class="intro-text-content">
-                <h2>January brings us Firefox 85</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia voluptates accusantium expedita ut
-                    sapiente maxime in incidunt velit doloremque, alias fuga. In nihil alias voluptate ducimus amet
-                    eligendi! Cupiditate, nulla.</p>
+                <h2>Apresentação</h2>
+                <p>Este é meu projeto Landing Page. Para fazê-lo, utilizei como base o curso da Udemy para
+                    JavaScript, Typescript e frameworks relativos. Esta Landing Page utiliza apenas HTML e CSS puros
+                    (com um pouco de JavaScript para fazer um menu responsivo).</p>
+                    <p>Principais conceitos usados neste trabalho:</p>
+                <ul>
+                    <li>Grid</li>
+                    <li>Flexbox</li>
+                    <li>Responsive Design</li>
+                    <li>Image Effects</li>
+                    <li>HTML Semantics</li>
+                </ul><br>
+                <p>Para deixar o projeto prático, me propus a descrever um pouco sobre a história da fotografia.</p>
+
             </div>
             <div class="intro-img">
                 <img src="./images/js-not-optimized.svg" alt="Logo de HTML, CSS, JS, com homens segurando-as">
@@ -54,60 +66,65 @@
         </div>
     </section>
 
-
-    <section id="top3" class="white-bg section">
+    <!-- HISTÓRIA -->
+    <section id="historia" class="white-bg section">
         <div class="top3-content main-content">
-            <h2>My current Title Aleatório</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis similique impedit architecto
-                aspernatur non voluptates sed labore perspiciatis deserunt voluptas! Asperiores alias a dignissimos
-                tempora. Nihil suscipit nulla fugiat itaque!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum repellat exercitationem breprehenderit
-                cum, sapiente ipsum suscipit harum, quo totam incidunt, dolores unde iste distinctio qui iure dolorem
-                necessitatibus minima nobis!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloremque aliquid voluptate amet
-                dolorum? Unde porro quasi ea sunt voluptatem odit doloremque libero? Ex, laboriosam! Facilis, iste? Eos,
-                iusto ullam.</p>
+            <h2>História da fotografia</h2>
+            <p>A primeira fotografia de que se tem registro foi tirada na França, em 1826, por Joseph Nicéphore Niépce.
+                Entretanto, há quem afirme que sua história teve início muitos séculos antes desse registro, com as
+                experiências feitas por alquimistas na Antiguidade.</p>
+            <p> Aa partir das experiências executadas por químicos e alquimistas desde a mais remota antiguidade. Por
+                volta de 350 a.C., aproximadamente na época em que viveu Aristóteles na Grécia antiga, já se conhecia o
+                fenômeno da produção de imagens pela passagem de luz através de um pequeno orifício.</p>
+            <p>A primeira câmera fotográfica surgiu em 1839, também criada por um francês, Louis Jacques Mandé Daguerre.
+                Mas foi apenas por volta de 1888 que a nova arte ganhou popularidade, com o surgimento da marca Kodak —
+                que atua no ramo da fotografia até os dias atuais.</p>
         </div>
     </section>
 
-
-    <section id="grid-one" class="grid-one main-bg section">
+    <!-- DATAS -->
+    <section id="datas" class="grid-one main-bg section">
         <div class="main-content grid-one-content">
 
-            <h2 class="grid-main-heading">My Grid</h2>
-            <p class="grid-description">Uma breve descrição.</p>
+            <h2 class="grid-main-heading">Datas Importantes</h2>
+            <p class="grid-description">Uma breve sintese sobre a evolução da camera fotográfica dentro da história</p>
 
             <div class="grid">
                 <div>
-                    <h3>teste 1</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime iusto obcaecati iste optio est
-                        perspiciatis veritatis repudiandae sapiente, ipsa qui consectetur distinctio laudantium officiis
-                        eaque numquam, neque exercitationem. Quisquam, perferendis?</p>
+                    <h3>1839</h3>
+                    <p>A primeira câmera fotográfica, criada pelo francês Louis Jacques Mandé Daguerre, porém, ela só se
+                        popularizou em 1888 com o surgimento da marca Kodak. Desde então, a fotografia se tornou uma
+                        arte apreciada por muitas pessoas. De acordo com a etimologia da palavra, fotografia significa
+                        escrever com luz ou desenhar com a iluminação.
+
+                        Hoje, devido à popularização das fotografias digitais, a luz não tem tanta importância na
+                        captura da imagem como era antigamente, quando eram usados filmes sensíveis à luz.</p>
                 </div>
 
                 <div>
-                    <h3>teste 2</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime iusto obcaecati iste optio est
-                        perspiciatis veritatis repudiandae sapiente, ipsa qui consectetur distinctio laudantium officiis
-                        eaque numquam, neque exercitationem. Quisquam, perferendis?</p>
+                    <h3>1969</h3>
+                    <p>A primeira camera digital inventada pelos cientistas Willard Boyle e Geoge E. Smith. Ela
+                        fotografava em preto e branco, pesava 3,6kg., tinha uma resolução de 0,01 mp, gravava a imagem
+                        numa fita "cassette", e demorou 23 segundos em tomar a primeira fotografia digital da historia.
+                    </p>
                 </div>
 
                 <div>
-                    <h3>teste 3</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime iusto obcaecati iste optio est
-                        perspiciatis veritatis repudiandae sapiente, ipsa qui consectetur distinctio laudantium officiis
-                        eaque numquam, neque exercitationem. Quisquam, perferendis?</p>
+                    <h3>1996</h3>
+                    <p>Como a primeira câmera fotográfica digital para consumidores, com uma tela cristal líquido na
+                        parte posterior, foi a Casio QV-10. Possivelmente a primeira câmera fotográfica digital que
+                        oferecia capacidade de armazenar clipes de vídeo.</p>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <section id="gallery" class="grid-one white-bg section">
+    <!-- GALERIA -->
+    <section id="galeria" class="grid-one white-bg section">
         <div class="main-content grid-one-content">
 
             <h2 class="grid-main-heading">Gallery</h2>
-            <p class="grid-description">Uma breve descrição.</p>
+            <p class="grid-description">Exibição de fotografias tiradas por câmeras digitais e analógicas.</p>
 
             <div class="grid">
                 <div class="gallery-img">
@@ -137,29 +154,28 @@
         </div>
     </section>
 
-
-    <section id="some-other" class="main-bg section">
+    <!-- CARREIRA -->
+    <section id="carreira" class="main-bg section">
         <div class="top3-content main-content">
-            <h2>My current Title Aleatório</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis similique impedit architecto
-                aspernatur non voluptates sed labore perspiciatis deserunt voluptas! Asperiores alias a dignissimos
-                tempora. Nihil suscipit nulla fugiat itaque!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum repellat exercitationem breprehenderit
-                cum, sapiente ipsum suscipit harum, quo totam incidunt, dolores unde iste distinctio qui iure dolorem
-                necessitatibus minima nobis!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloremque aliquid voluptate amet
-                dolorum? Unde porro quasi ea sunt voluptatem odit doloremque libero? Ex, laboriosam! Facilis, iste? Eos,
-                iusto ullam.</p>
+            <h2>Fotografo: o que faz?</h2>
+            <p>Fotografo é o profissional que utiliza um equipamento fotográfico, digital ou analófico, para registrar
+                imagens. Além disso, ele pode também ser responsável pelo tratamento e pós produção, revelação, e
+                ampliação, e a curadoria do material fotográfico</p>
+            <p>A pessoa que deseja seguir a profissão fotógrafo deve gostar de lidar com pessoas, saber se comunicar
+                bem, ter muita criatividade e ser proativo. Além disso, é preciso ser organizado, saber controlar seu
+                tempo e resolver problemas</p>
+            <p>Existem dois tipos de curso superior de fotografia: o tecnólogo e o bacharelado. O primeiro tem duração
+                de dois anos. Trata-se de um curso mais compacto e direcionado. Já o bacharelado possui duração de
+                quatro anos e o curso procura estimular o desenvolvimento de trabalhos autorais e a linguagem
+                fotográfica.</p>
         </div>
     </section>
 
-
-    <section id="pricing" class="white-bg section">
+    <!-- PREÇOS -->
+    <section id="preços" class="white-bg section">
         <div class="top3-content main-content">
-            <h2>My current Title Aleatório</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis similique impedit architecto
-                aspernatur non voluptates sed labore perspiciatis deserunt voluptas! Asperiores alias a dignissimos
-                tempora. Nihil suscipit nulla fugiat itaque!</p>
+            <h2>Câmera</h2>
+            <p>Aqui é listado o pack de equipamentos iniciais necessários para se começar uma vida como fotógrafo</p>
 
             <div class="responsive-table">
                 <table>
@@ -167,34 +183,34 @@
 
                     <thead>
                         <tr>
-                            <th>Title 1</th>
-                            <th>Title 2</th>
-                            <th>Title 3</th>
+                            <th>Equipamento</th>
+                            <th>Modelo</th>
+                            <th>Preço</th>
                         </tr>
                     </thead>
 
                     <tbody>
                         <tr>
-                            <td>Content 1</td>
-                            <td>Content 2</td>
-                            <td>Content 3</td>
+                            <td>Câmera Digital</td>
+                            <td>Canon Eos Rebel T00</td>
+                            <td>R$ 2.600,00</td>
                         </tr>
                         <tr>
-                            <td>Content 1</td>
-                            <td>Content 2</td>
-                            <td>Content 3</td>
+                            <td>Tripé</td>
+                            <td>Profissional Universal 1,70</td>
+                            <td>R$ 161,10</td>
                         </tr>
                         <tr>
-                            <td>Content 1</td>
-                            <td>Content 2</td>
-                            <td>Content 3</td>
+                            <td>Mochila Fotográfica</td>
+                            <td>Impermeável Compacta para DSLR e Mirrorless</td>
+                            <td>R$ 103,10</td>
                         </tr>
                     </tbody>
 
                     <tfoot>
                         <tr>
                             <td colspan="2"></td>
-                            <td id="total">Content 3</td>
+                            <td id="total">R$ 2.864,20</td>
                         </tr>
                     </tfoot>
 
@@ -203,14 +219,12 @@
         </div>
     </section>
 
-
+    <!-- CONTACT -->
     <section id="contact" class="contact-bg section">
         <div class="main-content intro-content">
             <div class="intro-text-content">
-                <h2>January brings us Firefox 85</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia voluptates accusantium expedita ut
-                    sapiente maxime in incidunt velit doloremque, alias fuga. In nihil alias voluptate ducimus amet
-                    eligendi! Cupiditate, nulla.</p>
+                <h2>Fale Conosco</h2>
+                <p>Alguma dúvida ou sugestão sobre os conteúdos da nossa página, fale conosco:</p>
             </div>
             <div class="intro-img">
                 <img src="./images/js-not-optimized.svg" alt="Logo de HTML, CSS, JS, com homens segurando-as">
@@ -230,7 +244,7 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="email">Last name</label>
+                        <label for="email">E-mail</label>
                         <input type="email" name="email" id="email" placeholder="Your e-mail">
                     </div>
 
@@ -247,7 +261,7 @@
         </div>
     </section>
 
-
+    <!-- FOOTER -->
     <footer class="white-bg footer">
         <p><a rel="nofollow" target="_blank" href="">Feito por Marco Antonio Gil</a></p>
     </footer>

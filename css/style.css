@@ -1,7 +1,6 @@
 
 .intro-content {
     position: relative;
-    /* top: -8rem; */
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     gap: var(--gap);
@@ -180,7 +179,15 @@
 }
 
 @media (max-width: 800px) {
-    .intro.content, .grid {
+    body {
+        font-size: 1.7rem;
+    }
+    
+    h2 {
+        font-size: 5rem;
+    }
+    
+    .intro-content, .grid {
         grid-template-columns: 1fr;
     }
 
