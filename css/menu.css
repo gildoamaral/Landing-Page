@@ -40,6 +40,7 @@
     padding: 2rem;
     font-size: 1.8rem;
     position: relative;
+    color: var(--primary-color);
 }
 
 .menu ul li a::after {
